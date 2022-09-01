@@ -16,7 +16,10 @@ File 7-everybody adds execution permission to the owner,the group owner and the 
 
 File 8-James_Bond sets the permission to the file hello as follows:
 
-<b>Owner: no permission at all</b>
-<b>Group: no permission at all</b>
+<b>Owner: no permission at all</b></br>
+<b>Group: no permission at all</b></br>
 <b>Other users: all the permissions</b>
 
+File 9-John_Doe sets mode of the file hello to this:
+
+<i>-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello</i>
