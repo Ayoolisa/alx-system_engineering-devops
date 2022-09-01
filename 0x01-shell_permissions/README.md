@@ -29,3 +29,5 @@ File 10-mirror_permissions sets the mode of the file hello the same as olleh’s
 <b>The file olleh will be in the working directory</b>
 
 File 11-directories_permissions adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular filesshould not be changed
+
+File 12-directory_permissions creates a directory called my_dir with permissions 751 in the working directory.
