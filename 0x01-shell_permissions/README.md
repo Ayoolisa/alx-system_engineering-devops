@@ -21,5 +21,9 @@ File 8-James_Bond sets the permission to the file hello as follows:
 <b>Other users: all the permissions</b>
 
 File 9-John_Doe sets mode of the file hello to this:
+```-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello```
 
-<i>-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello</i>
+File 10-mirror_permissions sets the mode of the file hello the same as olleh’s mode.
+
+<b>The file hello will be in the working directory</b></br>
+<b>The file olleh will be in the working directory</b>
