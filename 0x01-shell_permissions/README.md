@@ -7,3 +7,5 @@ File 2-groups prints all the groups the current user is part of
 File 3-new_owner changes the owner of the file hello to the user betty
 
 File 4-empty creates an empty file called hello
+
+File 5-execute executes permission to the owner of the file hello
