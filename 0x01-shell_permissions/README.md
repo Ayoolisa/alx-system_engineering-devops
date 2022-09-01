@@ -12,4 +12,11 @@ File 5-execute executes permission to the owner of the file hello
 
 File 6-multiple_permissions adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
 
-File 7-everybody adds execution permission to the owner, the group owner and the other users, to the file hello
+File 7-everybody adds execution permission to the owner,the group owner and the other users, to the file hello
+
+File 8-James_Bond sets the permission to the file hello as follows:
+
+<b>Owner: no permission at all</b>
+<b>Group: no permission at all</b>
+<b>Other users: all the permissions</b>
+
