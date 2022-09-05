@@ -41,3 +41,5 @@ File 19-AZ Replace all characters A and c from input to Z and e respectively.
 File 20-hiago removes all letters c and C from input.
 
 File 21-reverse reverse its input.
+
+File 22-users_and_homes displays all users and their home directories, sorted by users.
