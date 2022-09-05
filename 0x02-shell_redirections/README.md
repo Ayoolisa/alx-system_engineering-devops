@@ -31,3 +31,5 @@ File 14-findthatword display lines containing the pattern “root” from the fi
 File 15-countthatword displays the number of lines that contain the pattern “bin” in the file /etc/passwd
 
 File 16-whatsnext displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+
+File 17-hidethisword displays all the lines in the file /etc/passwd that do not contain the pattern “bin”.
