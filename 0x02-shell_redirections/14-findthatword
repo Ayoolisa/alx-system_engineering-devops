@@ -1,2 +1,2 @@
 #!/bin/bash
-find | grep "*.root" /etc/passwd
+grep "root" /etc/passwd
