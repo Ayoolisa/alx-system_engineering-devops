@@ -12,3 +12,5 @@ File 3-paths script that counts the number of directories in the ```PATH```
 File 4-global_variables script that lists environment variables.
 
 File 5-local_variables script that lists all local variables and environment variables, and functions.
+
+File 6-create_local_variable script that creates a new local variable.
