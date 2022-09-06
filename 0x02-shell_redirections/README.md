@@ -47,3 +47,5 @@ File 22-users_and_homes script that displays all users and their home directorie
 File 100-empty_casks script that finds all empty files and directories in the current directory and all sub-directories.
 
 File 101-gifs script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+
+File 102-acrostic script that decodes acrostics that use the first letter of each line.
