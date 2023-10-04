@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# this is a bash script that displays numbers from 1 to 100.
+# displays in a list format:
+#    "FizzBuzz" when the number is a multiple of "3 and 5".
+#    "Fizz" when the number is a multiple of 3.
+#    "Buzz" when the number is a multiple of 5.
+#    otherwise, the number.
+
+count=0
+
+while [ $count -lt 100 ]
+do
+  if (( count % 3 == 0 && $count % 5 == 0 ))
+  then
+    echo "Fizzbuzz"
+  elif (( count % 3 == 0 ))
+  then
+    echo "Fizz"
+  elif (( $count % 5 == 0 ))
+  then
+    echo "Buzz"
+  else
+    echo "$count"
+  fi
+  (( count++ ))
+done
