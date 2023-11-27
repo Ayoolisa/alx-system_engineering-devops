@@ -6,13 +6,13 @@ In this project, I started working with Puppet as a configuration management too
 
 **0. Create a file** <br>
 *0-create_a_file.pp:* Puppet manifest file that creates a file `holberton` in the `/tmp` directory. <br>
-_File permissions_: `0744`. <br>
-_File group_: `www-data`. <br>
-_File owner_: www-data. <br>
-_File content_: `I love Puppet`. <br>
+__File permissions__: `0744`. <br>
+__File group__: `www-data`. <br>
+__File owner__: www-data. <br>
+__File content__: `I love Puppet`. <br>
 
 **1. Install a package** <br>
-*1-install_a_package.pp:* Puppet manifest file that install puppet-lint version 2.1.1.
+__1-install_a_package.pp:__ Puppet manifest file that install puppet-lint version 2.1.1.
 
 **2. Execute a command** <br>
-*2-execute_a_command.pp:* Puppet manifest file that kills the process `killmenow`.
+__2-execute_a_command.pp:__ Puppet manifest file that kills the process `killmenow`.
