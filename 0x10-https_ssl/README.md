@@ -5,7 +5,7 @@ In this project, I learned about the importance of HTTPS and how it works. I con
 ## Tasks 📃
 
 - 0. HTTPS ABC
-  - ** 0-https_abc **: Text file containing answers to the following questions, one answer per line:
+  -  *0-https_abc* : Text file containing answers to the following questions, one answer per line:
   - What is HTTPS?
     - A secure version of HTTP.
     - A faster version of HTTP.
