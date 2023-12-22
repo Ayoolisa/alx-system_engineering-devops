@@ -9,7 +9,7 @@ This was the third in a series of web stack debugging projects. In these project
   - Usage: `./0-iamsomeonelese <user>`
 
 ### 1. Run Nginx as Nginx
-  - [Run Nginx as Nginx](Run Nginx as Nginx): Bash script that fixes a web server to run Nginx listening on port `8080` as the `nginx` user.
+  - [Run Nginx as Nginx](1-run_nginx_as_nginx): Bash script that fixes a web server to run Nginx listening on port `8080` as the `nginx` user.
 
 ### 2. 7 lines or less
   - [100-fix_in_7_lines_or_less](100-fix_in_7_lines_or_less): Bash script that fixes a web server to run Nginx listening on port `8080` as the `nginx` user.
