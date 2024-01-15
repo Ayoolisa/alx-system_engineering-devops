@@ -24,6 +24,7 @@ Patch involved a simple fix on the typo, removing the trailing `p`.
 ## Prevention
 
 This outage was not a web server error, but an application error. To prevent such outages moving forward, please keep the following in mind.
+
     - Test! Test test test. Test the application before deploying. This error would have arisen and could have been addressed earlier had the app been tested.
     - Status monitoring. Enable some uptime-monitoring service such as [UptimeRobot](UptimeRobot) to alert instantly upon outage of the website
 
