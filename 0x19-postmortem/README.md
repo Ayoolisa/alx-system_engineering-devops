@@ -6,7 +6,7 @@ Upon the release of Holberton School's System Engineering & DevOps project 0x19,
 
 Bug debugger Brennan (BDB... as in my actual initials... made that up on the spot, pretty good, huh?) encountered the issue upon opening the project and being, well, instructed to address it, roughly 19:20 PST. He promptly proceeded to undergo solving the problem.
 
-   -  1. Checked running processes using `ps aux`. Two `apache2` processes - `root` and `www-data` - were properly running.
+  1. Checked running processes using `ps aux`. Two `apache2` processes - `root` and `www-data` - were properly running.
     2. Looked in the `sites-available` folder of the `/etc/apache2/` directory. Determined that the web server was serving content located in `/var/www/html/`.
     3. In one terminal, ran `strace` on the PID of the `root` Apache process. In another, curled the server. Expected great things... only to be disappointed. `strace` gave no useful information.
     4. Repeated step 3, except on the PID of the `www-data` process. Kept expectations lower this time... but was rewarded! `strace` revelead an `-1 ENOENT (No such file or directory)` error occurring upon an attempt to access the file `/var/www/html/wp-includes/class-wp-locale.phpp`.
